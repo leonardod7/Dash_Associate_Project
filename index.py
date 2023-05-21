@@ -1,25 +1,33 @@
+
+# import libraries ====================================================================================================
+
 import dash
 from dash import html, dcc, Input, Output, State
 import dash_bootstrap_components as dbc
 import pandas as pd
 import sqlite3
 
-# import from folders
+# import from folders =================================================================================================
+
 from app import *
-# from components import home, sidebar
+from components import home, sidebar
 
-# Criar estrutura para Store intermediária ==============
+# Criar estrutura para Store intermediária ============================================================================
 
 
-# =========  Layout  =========== #
+# Layout ==============================================================================================================
 app.layout = dbc.Container([
     # Store e Location
 
     # Layout
 
+
+
+
 ], fluid=True)
 
-# ======= Callbacks ======== #
+# Callbacks ==============================================================================================================
+
 # URL callback to update page content
 
 
